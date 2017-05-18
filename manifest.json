@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Eventpop Watching",
+  "description": "Eventpop Automatic Ticket Booking in 3 seconds (Always choose the first option)",
+  "permissions": ["tabs"],
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "cat_off.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "cat_on.png"
+  }
+}
