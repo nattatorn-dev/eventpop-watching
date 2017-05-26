@@ -3,7 +3,7 @@
   "name": "Eventpop Watching",
   "description": "Eventpop Automatic Ticket Booking in 3 seconds (Always choose the first option)",
   "permissions": ["tabs"],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "content_scripts": [
     {
       "run_at": "document_end",
